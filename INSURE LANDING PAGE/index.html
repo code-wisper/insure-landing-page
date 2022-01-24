@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+
+    <title>Frontend Mentor | Insure landing page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <header role="navigation">
+      <div class="container flex align-flex padding--tb">
+        <img src="/images/logo.svg" alt="Insure Logo" />
+
+        <ul class="desktop-menu nav-indicators flex uppercase align-flex">
+          <li>
+            <a href="#" class="text-light fs-400--bold letter-spacing-3"
+              >How we work</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-light fs-400--bold letter-spacing-3"
+              >Blog</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-light fs-400--bold letter-spacing-3"
+              >Account</a
+            >
+          </li>
+          <li><a href="#" class="btn btn--dark"> View plans</a></li>
+        </ul>
+
+        <img
+          src="/images/icon-hamburger.svg"
+          alt="hamburger icon"
+          class="mobile-icon"
+          id="hamburger"
+        />
+        <img
+          src="/images/icon-close.svg"
+          alt="close icon"
+          class="mobile-close has-fade"
+          id="close"
+        />
+
+        <div
+          id="mobileMenu"
+          class="mobile-menu flex flex-column uppercase padding--all has-fade"
+        >
+          <a
+            href="#"
+            class="padding--tb text-white fs-400--bold letter-spacing-3"
+            >How we work</a
+          >
+          <a
+            href="#"
+            class="padding--tb text-white fs-400--bold letter-spacing-3"
+            >Blog</a
+          >
+          <a
+            href="#"
+            class="padding--tb text-white fs-400--bold letter-spacing-3"
+            >Account</a
+          >
+          <a href="#" class="btn btn--light"> View plans</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- intro section -->
+      <section class="main-container">
+        <div class="image-container--mobile">
+          <img src="/images/image-intro-mobile.jpg" alt="" />
+        </div>
+
+        <div class="text-container container">
+          <div class="left-col">
+            <div class="white-line"></div>
+            <div class="heading--1">
+              <h1 class="letter-spacing-2">
+                Humanizing <br />
+                your insurance.
+              </h1>
+            </div>
+
+            <div class="para">
+              <p class="word-spacing">
+                Get your life insurance coverage easier and faster. We blend our
+                expertise and technology to help you find the plan that’s right
+                for you. Ensure you and your loved ones are protected.
+              </p>
+            </div>
+
+            <div class="cta">
+              <a href="#" class="btn btn--light uppercase">View plans</a>
+            </div>
+          </div>
+
+          <div class="right-col">
+            <img src="/images/image-intro-desktop.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- intro section ends -->
+
+      <!-- mid section -->
+
+      <section class="mid-container">
+        <div class="mid-wrapper container">
+          <div class="ad-header">
+            <div class="white-line--dark"></div>
+            <div class="heading--1">
+              <h1 class="heading--1-color">We’re different</h1>
+            </div>
+          </div>
+
+          <div class="ads">
+            <div class="ad">
+              <div class="img-ad">
+                <img src="/images/icon-snappy-process.svg" alt="" />
+              </div>
+              <div class="heading--2">
+                <h2>Snappy Process</h2>
+              </div>
+              <div class="para">
+                <p class="para--color">
+                  Our application process can be completed in minutes, not
+                  hours. Don’t get stuck filling in tedious forms.
+                </p>
+              </div>
+            </div>
+
+            <div class="ad">
+              <div class="img-ad">
+                <img src="/images/icon-affordable-prices.svg" alt="" />
+              </div>
+              <div class="heading--2">
+                <h2>Affordable Prices</h2>
+              </div>
+              <div class="para">
+                <p class="para--color">
+                  We don’t want you worrying about high monthly costs. Our
+                  prices may be low, but we still offer the best coverage
+                  possible.
+                </p>
+              </div>
+            </div>
+
+            <div class="ad">
+              <div class="img-ad">
+                <img src="/images/icon-people-first.svg" alt="" />
+              </div>
+              <div class="heading--2">
+                <h2>People First</h2>
+              </div>
+              <div class="para">
+                <p class="para--color">
+                  Our plans aren’t full of conditions and clauses to prevent
+                  payouts. We make sure you’re covered when you need it.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- mid section ends -->
+
+      <!-- last section -->
+
+      <section class="last-container">
+        <div class="last-wrapper container">
+          <div class="heading--3">
+            <h3>Find out more about how we work</h3>
+          </div>
+
+          <div class="cta">
+            <a href="#" class="btn btn--light uppercase">How we work</a>
+          </div>
+        </div>
+      </section>
+      <!-- last section ends -->
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="container">
+          <div class="top-container">
+            <img src="/images/logo.svg" alt="Insure Logo" />
+            <div class="top-icons flex">
+              <img src="/images/icon-facebook.svg" alt="" />
+              <img src="/images/icon-twitter.svg" alt="" />
+              <img src="/images/icon-pinterest.svg" alt="" />
+              <img src="/images/icon-instagram.svg" alt="" />
+            </div>
+          </div>
+          <div class="long-line"></div>
+          <div class="bottom-containers">
+            <div class="bottom-container">
+              <div class="heading--4">
+                <h4 class="uppercase letter-spacing-3">Our company</h4>
+              </div>
+              <div class="footer-texts">
+                <p class="uppercase">How we work</p>
+                <p class="uppercase">Why Insure?</p>
+                <p class="uppercase">View plans</p>
+                <p class="uppercase">How we work</p>
+              </div>
+            </div>
+
+            <div class="bottom-container">
+              <div class="heading--4">
+                <h4 class="uppercase letter-spacing-3">Help me</h4>
+              </div>
+              <div class="footer-texts">
+                <p class="uppercase">FAQ</p>
+                <p class="uppercase">Terms of use</p>
+                <p class="uppercase">Privacy policy</p>
+                <p class="uppercase">Cookies</p>
+              </div>
+            </div>
+
+            <div class="bottom-container">
+              <div class="heading--4">
+                <h4 class="uppercase letter-spacing-3">Contact</h4>
+              </div>
+              <div class="footer-texts">
+                <p class="uppercase">Sales</p>
+                <p class="uppercase">Support</p>
+                <p class="uppercase">Live chat</p>
+              </div>
+            </div>
+
+            <div class="bottom-container">
+              <div class="heading--4">
+                <h4 class="uppercase letter-spacing-3">Others</h4>
+              </div>
+              <div class="footer-texts">
+                <p class="uppercase">Careers</p>
+                <p class="uppercase">Press</p>
+                <p class="uppercase">Licenses</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/index.js"></script>
+  </body>
+</html>
